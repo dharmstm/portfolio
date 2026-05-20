@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Application Security Testing | Dharmendra Kumar</title>
+    <meta name="description" content="Professional mobile application security testing — static and dynamic analysis, reverse engineering, network interception, and OWASP MSTG compliance for iOS and Android apps.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dharmendrastm.github.io/PortfolioWebsite/services/mobile-app-security.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mobile Application Security Testing | Dharmendra Kumar">
+    <meta property="og:description" content="Professional mobile application security testing — static and dynamic analysis, reverse engineering, network interception, and OWASP MSTG compliance for iOS and Android apps.">
+    <meta property="og:url" content="https://dharmendrastm.github.io/PortfolioWebsite/services/mobile-app-security.html">
+    <meta property="og:site_name" content="Dharmendra Kumar - Cybersecurity Portfolio">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@dharmstm">
+    <meta name="theme-color" content="#020408">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔐</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/service.css">
+</head>
+<body>
+    <canvas id="cyberGrid" class="cyber-grid"></canvas>
+    <nav class="navbar scrolled">
+        <div class="container nav-container">
+            <a href="../index.html" class="nav-logo"><svg class="logo-svg" viewBox="0 0 40 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 2L4 10v12c0 11 16 18 16 18s16-7 16-18V10L20 2z" stroke="url(#logoGrad)" stroke-width="2" fill="rgba(0,245,212,0.06)"/><path d="M14 22l4 4 8-8" stroke="#00f5d4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="logoGrad" x1="4" y1="2" x2="36" y2="42"><stop stop-color="#00f5d4"/><stop offset="1" stop-color="#39ff14"/></linearGradient></defs></svg><span class="logo-text">DK<span class="logo-dot">.</span></span></a>
+            <ul class="nav-links">
+                <li><a href="../index.html" class="nav-link">Home</a></li><li><a href="../index.html#about" class="nav-link">About</a></li>
+                <li><a href="../index.html#services" class="nav-link active">Services</a></li><li><a href="../index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="../index.html#blog" class="nav-link">Blog</a></li>
+                <li><a href="../Images/Dharmendra_resume (2).pdf" download="Dharmendra_resume" class="nav-link">Resume</a></li>
+            </ul>
+            <a href="../index.html#contact" class="btn btn-glow nav-cta"><span class="btn-text">Hire Me</span><span class="btn-shine"></span></a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+    <div class="mobile-nav-overlay" id="mobileNav"><ul class="mobile-nav-links">
+        <li><a href="../index.html">Home</a></li><li><a href="../index.html#about">About</a></li><li><a href="../index.html#services">Services</a></li>
+        <li><a href="../index.html#projects">Projects</a></li><li><a href="../index.html#blog">Blog</a></li><li><a href="../index.html#contact">Contact</a></li>
+    </ul></div>
+
+    <section class="service-hero">
+        <div class="container">
+            <a href="../index.html#services" class="service-back"><i class="fas fa-arrow-left"></i> Back to Services</a>
+            <div class="service-hero-grid">
+                <div class="service-hero-content">
+                    <h1>Mobile Application Security Testing</h1>
+                    <p>End-to-end security assessment of your iOS and Android applications — from binary analysis to runtime manipulation. Mobile apps operate in hostile environments where users control the device, and I ensure your application withstands reverse engineering, tampering, and data extraction attacks that target the mobile-specific threat landscape.</p>
+                </div>
+                <div class="service-hero-icon"><i class="fas fa-mobile-alt"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-page">
+        <div class="container">
+
+            <div class="section-header">
+                <span class="section-label">What I Deliver</span>
+                <h2 class="section-title">Service Features</h2>
+                <p class="section-subtitle">Mobile applications face unique security challenges — local data storage, inter-process communication, and client-side trust decisions create attack vectors that do not exist in web applications. My testing covers every layer.</p>
+            </div>
+
+            <div class="feature-grid">
+                <div class="feature-item glass-card">
+                    <div class="fi-icon"><i class="fas fa-file-code"></i></div>
+                    <h3>Static Analysis (SAST)</h3>
+                    <p>Comprehensive source code and binary analysis to identify vulnerabilities without executing the application. I decompile APK and IPA files, analyze the codebase for hardcoded credentials, insecure API keys, weak cryptographic implementations, and dangerous API usage patterns. Manifest and entitlement configurations are reviewed for overly permissive declarations.</p>
+                </div>
+                <div class="feature-item glass-card">
+                    <div class="fi-icon"><i class="fas fa-play-circle"></i></div>
+                    <h3>Dynamic Analysis (DAST)</h3>
+                    <p>Runtime security testing of the application in a controlled environment to observe its behavior under attack conditions. I monitor file system interactions, inter-process communication, clipboard usage, screenshot protection, and background state handling. Runtime instrumentation reveals how the app processes sensitive data and whether protections can be bypassed during execution.</p>
+                </div>
+                <div class="feature-item glass-card">
+                    <div class="fi-icon"><i class="fas fa-puzzle-piece"></i></div>
+                    <h3>Reverse Engineering</h3>
+                    <p>Decompilation and disassembly of mobile application binaries to understand internal logic, identify hidden functionality, and extract embedded secrets. I assess the effectiveness of code obfuscation, anti-tampering mechanisms, and root/jailbreak detection implementations to determine whether an attacker could reconstruct the application's business logic and bypass client-side protections.</p>
+                </div>
+                <div class="feature-item glass-card">
+                    <div class="fi-icon"><i class="fas fa-database"></i></div>
+                    <h3>Local Data Storage Testing</h3>
+                    <p>Examination of all local data storage mechanisms — SQLite databases, SharedPreferences, Keychain, plist files, cache directories, and log files — for sensitive data exposure. I verify that credentials, tokens, personal information, and financial data are stored using platform-appropriate secure storage APIs with proper encryption and are not accessible to other applications or through device backups.</p>
+                </div>
+                <div class="feature-item glass-card">
+                    <div class="fi-icon"><i class="fas fa-exchange-alt"></i></div>
+                    <h3>Network Traffic Analysis</h3>
+                    <p>Interception and analysis of all network communications between the mobile application and its backend services. I test for sensitive data transmitted over unencrypted channels, improper certificate validation, and API-level vulnerabilities. WebSocket connections, push notification channels, and third-party SDK communications are analyzed for data leakage and man-in-the-middle susceptibility.</p>
+                </div>
+                <div class="feature-item glass-card">
+                    <div class="fi-icon"><i class="fas fa-lock"></i></div>
+                    <h3>Certificate Pinning Testing</h3>
+                    <p>Assessment of TLS certificate pinning implementation to determine its effectiveness against interception attacks. I test multiple bypass techniques — Frida-based hooks, Objection scripts, and custom SSL unpinning methods — to evaluate whether an attacker with a rooted device could intercept encrypted traffic. I also verify that pinning failures are handled gracefully without exposing sensitive error details.</p>
+                </div>
+            </div>
+
+            <div class="methodology-section">
+                <h2><span class="heading-icon"><i class="fas fa-route"></i></span> Testing Methodology</h2>
+                <p>My mobile application security testing methodology follows the OWASP Mobile Security Testing Guide (MSTG) framework, ensuring systematic coverage of all mobile-specific attack vectors across both Android and iOS platforms.</p>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-num">01</div>
+                        <div class="step-content glass-card">
+                            <h3>App Reconnaissance</h3>
+                            <p>Initial intelligence gathering on the target application — analyzing app store metadata, identifying the technology stack and third-party frameworks, reviewing requested permissions, and mapping the application's network endpoints through traffic analysis. I set up the testing environment with rooted/jailbroken devices and configure proxy tools for comprehensive interception.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">02</div>
+                        <div class="step-content glass-card">
+                            <h3>Static Analysis</h3>
+                            <p>Deep dive into the application binary through decompilation and code review. I extract and analyze the APK/IPA package, review source code for security anti-patterns, identify hardcoded secrets and API keys, assess cryptographic implementations, and analyze manifest files for dangerous permission combinations and exported components that could be leveraged by malicious applications.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">03</div>
+                        <div class="step-content glass-card">
+                            <h3>Dynamic Analysis</h3>
+                            <p>Runtime testing using instrumentation frameworks to hook into application functions, bypass security controls, and observe real-time behavior. I test authentication flows, session management, biometric authentication bypass, root/jailbreak detection evasion, and local data storage security. Custom Frida scripts are developed to target application-specific security mechanisms and business logic.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">04</div>
+                        <div class="step-content glass-card">
+                            <h3>Network Interception</h3>
+                            <p>Man-in-the-middle testing of all network communications with SSL/TLS interception, certificate pinning bypass, and API traffic analysis. I capture and analyze every request and response to identify sensitive data exposure, test API endpoints for server-side vulnerabilities, and validate that certificate validation is properly implemented to prevent traffic interception in hostile network environments.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">05</div>
+                        <div class="step-content glass-card">
+                            <h3>Reporting</h3>
+                            <p>Delivery of a comprehensive mobile security report with findings mapped to OWASP MSTG and MASVS requirements. Each vulnerability includes platform-specific details, step-by-step reproduction instructions with screenshots, risk assessment, and remediation guidance with code examples for both Android and iOS. A compliance checklist is provided for app store security review readiness.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tools-section">
+                <h2><span class="heading-icon"><i class="fas fa-tools"></i></span> Tools & Technologies</h2>
+                <p>I leverage specialized mobile security tools for both Android and iOS platforms, combining automated analysis with manual runtime instrumentation for comprehensive coverage.</p>
+                <div class="tools-list">
+                    <div class="tool-chip glass-card"><i class="fas fa-shield-alt"></i><span>MobSF</span></div>
+                    <div class="tool-chip glass-card"><i class="fas fa-syringe"></i><span>Frida</span></div>
+                    <div class="tool-chip glass-card"><i class="fas fa-terminal"></i><span>Objection</span></div>
+                    <div class="tool-chip glass-card"><i class="fas fa-box-open"></i><span>APKTool</span></div>
+                    <div class="tool-chip glass-card"><i class="fas fa-code"></i><span>Jadx</span></div>
+                    <div class="tool-chip glass-card"><i class="fas fa-exchange-alt"></i><span>Charles Proxy</span></div>
+                </div>
+            </div>
+
+            <div class="benefits-section">
+                <h2><span class="heading-icon"><i class="fas fa-check-double"></i></span> Key Benefits</h2>
+                <p>Mobile application security testing protects your users on the devices they trust most. With billions of mobile apps processing sensitive data daily, ensuring your application meets the highest security standards is essential for user trust and regulatory compliance.</p>
+                <div class="benefits-grid">
+                    <div class="benefit-item glass-card"><i class="fas fa-check-circle"></i><span>Identify mobile-specific vulnerabilities unique to the platform</span></div>
+                    <div class="benefit-item glass-card"><i class="fas fa-check-circle"></i><span>Protect user data stored on-device and in transit</span></div>
+                    <div class="benefit-item glass-card"><i class="fas fa-check-circle"></i><span>Test offline security and local data protection mechanisms</span></div>
+                    <div class="benefit-item glass-card"><i class="fas fa-check-circle"></i><span>Validate encryption implementations and key management</span></div>
+                    <div class="benefit-item glass-card"><i class="fas fa-check-circle"></i><span>Ensure secure communications with certificate pinning validation</span></div>
+                    <div class="benefit-item glass-card"><i class="fas fa-check-circle"></i><span>Achieve OWASP MSTG and MASVS compliance</span></div>
+                </div>
+            </div>
+
+            <div class="service-cta glass-card">
+                <h2>Ready to Secure Your Mobile App?</h2>
+                <p>Whether you are preparing for an app store launch or need to assess an existing application, I will provide a thorough security evaluation covering both client-side and server-side attack vectors. Let's start with a free scoping conversation.</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7UnNDWLcNiogzuuiQETzSS0O7bYt4KM2Juf2L6esq_8JAUA/viewform?usp=header" class="btn btn-glow" target="_blank" rel="noopener noreferrer"><span class="btn-text">Request a Consultation</span><span class="btn-shine"></span></a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer"><div class="container"><div class="footer-bottom" style="border:none;padding:0">
+        <div class="footer-socials">
+            <a href="https://github.com/Dharmendrastm" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/dharmendrastm/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://x.com/dharmstm" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="footer-copyright">&copy; 2024 Dharmendra Kumar. All rights reserved.</p>
+    </div></div></footer>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+    <script src="../js/blog.js"></script>
+</body>
+</html>

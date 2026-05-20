@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /Images/*.pdf
+
+Sitemap: https://dharmendrastm.github.io/PortfolioWebsite/sitemap.xml

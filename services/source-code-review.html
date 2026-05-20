@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Source Code Review | Dharmendra Kumar</title>
+    <meta name="description" content="Professional secure source code review services combining manual expert analysis with automated SAST scanning to identify vulnerabilities at the earliest stage of development.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dharmendrastm.github.io/PortfolioWebsite/services/source-code-review.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Secure Source Code Review | Dharmendra Kumar">
+    <meta property="og:description" content="Professional secure source code review services combining manual expert analysis with automated SAST scanning to identify vulnerabilities at the earliest stage of development.">
+    <meta property="og:url" content="https://dharmendrastm.github.io/PortfolioWebsite/services/source-code-review.html">
+    <meta property="og:site_name" content="Dharmendra Kumar - Cybersecurity Portfolio">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@dharmstm">
+    <meta name="theme-color" content="#020408">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔐</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/service.css">
+</head>
+<body>
+    <canvas id="cyberGrid" class="cyber-grid"></canvas>
+
+    <nav class="navbar scrolled">
+        <div class="container nav-container">
+            <a href="../index.html" class="nav-logo"><svg class="logo-svg" viewBox="0 0 40 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 2L4 10v12c0 11 16 18 16 18s16-7 16-18V10L20 2z" stroke="url(#logoGrad)" stroke-width="2" fill="rgba(0,245,212,0.06)"/><path d="M14 22l4 4 8-8" stroke="#00f5d4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="logoGrad" x1="4" y1="2" x2="36" y2="42"><stop stop-color="#00f5d4"/><stop offset="1" stop-color="#39ff14"/></linearGradient></defs></svg><span class="logo-text">DK<span class="logo-dot">.</span></span></a>
+            <ul class="nav-links">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../index.html#about" class="nav-link">About</a></li>
+                <li><a href="../index.html#services" class="nav-link active">Services</a></li>
+                <li><a href="../index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="../index.html#blog" class="nav-link">Blog</a></li>
+                <li><a href="../Images/Dharmendra_resume (2).pdf" download="Dharmendra_resume" class="nav-link">Resume</a></li>
+            </ul>
+            <a href="../index.html#contact" class="btn btn-glow nav-cta"><span class="btn-text">Hire Me</span><span class="btn-shine"></span></a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+    <div class="mobile-nav-overlay" id="mobileNav">
+        <ul class="mobile-nav-links">
+            <li><a href="../index.html">Home</a></li><li><a href="../index.html#about">About</a></li><li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#projects">Projects</a></li><li><a href="../index.html#blog">Blog</a></li><li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="service-hero">
+        <div class="container">
+            <a href="../index.html#services" class="service-back"><i class="fas fa-arrow-left"></i> Back to Services</a>
+            <div class="service-hero-grid">
+                <div class="service-hero-content">
+                    <h1>Secure Source Code Review</h1>
+                    <p>Vulnerabilities are cheapest to fix when caught at the source. Our secure code review service combines deep manual analysis by experienced security engineers with state-of-the-art automated scanning tools to identify security flaws, logic errors, and architectural weaknesses directly in your codebase. We go beyond surface-level scanning to understand your application's business logic, data flow, and trust boundaries, delivering findings that development teams can act on immediately.</p>
+                </div>
+                <div class="service-hero-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-page">
+        <div class="container">
+
+            <div class="section-header">
+                <span class="section-label center">What We Deliver</span>
+                <h2 class="section-title center">Thorough <span class="gradient-text">Code Security</span> Analysis</h2>
+                <p class="section-subtitle">Our source code review covers every critical dimension of application security, from injection vulnerabilities and authentication flaws to business logic weaknesses and supply chain risks hidden in your dependency tree.</p>
+            </div>
+
+            <div class="feature-grid">
+                <div class="feature-item glass-card">
+                    <div class="fi-icon"><i class="fas fa-eye"></i></div>
+                    <h3>Manual Code Audit</h3>
+                    <p>Our security engineers perform line-by-line review of security-critical code paths including authentication, authorization, session management, input handling, and data processing. Manual review catches context-dependent vulnerabilities that automated tools consistently miss, such as race conditions, insecure direct object references, and flawed business logic implementations.</p>
+                </div>
+                <div class="feature-item glass-card">
+                    <div class="fi-icon"><i class="fas fa-robot"></i></div>
+                    <h3>Automated SAST Scanning</h3>
+                    <p>We deploy multiple Static Application Security Testing engines configured for your specific technology stack to achieve maximum detection coverage. Our automated analysis identifies common vulnerability patterns including injection flaws, buffer overflows, insecure deserialization, and cryptographic weaknesses across every file in your codebase with minimal false positive rates.</p>
+                </div>
+                <div class="feature-item glass-card">
+                    <div class="fi-icon"><i class="fas fa-project-diagram"></i></div>
+                    <h3>Business Logic Review</h3>
+                    <p>Technical vulnerabilities are only part of the picture. We analyze your application's business logic for flaws that could allow users to bypass payment flows, escalate privileges through legitimate features, manipulate pricing or inventory systems, or access unauthorized data through creative use of intended functionality. These findings represent some of the highest-impact vulnerabilities in any application.</p>
+                </div>
+                <div class="feature-item glass-card">
+                    <div class="fi-icon"><i class="fas fa-key"></i></div>
+                    <h3>Cryptographic Implementation Review</h3>
+                    <p>Cryptography is notoriously difficult to implement correctly. We review your encryption algorithms, key management practices, hashing implementations, random number generation, and certificate handling for weaknesses that could undermine data confidentiality. Our analysis identifies deprecated algorithms, insufficient key lengths, improper IV handling, and timing side-channel vulnerabilities.</p>
+                </div>
+                <div class="feature-item glass-card">
+                    <div class="fi-icon"><i class="fas fa-box-open"></i></div>
+                    <h3>Dependency Analysis</h3>
+                    <p>Modern applications rely on hundreds of third-party libraries, each representing a potential supply chain risk. We analyze your dependency tree for known vulnerabilities, abandoned packages, typosquatting risks, and license compliance issues. Our assessment identifies which vulnerable dependencies are actually reachable through your code, eliminating noise and focusing remediation efforts on genuine risks.</p>
+                </div>
+                <div class="feature-item glass-card">
+                    <div class="fi-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>CI/CD Pipeline Security</h3>
+                    <p>Your build and deployment pipeline is a high-value target for supply chain attacks. We review pipeline configurations, secret management practices, artifact integrity verification, and deployment permissions. Our assessment ensures that compromised build steps, poisoned dependencies, or unauthorized code changes cannot propagate through your pipeline into production environments.</p>
+                </div>
+            </div>
+
+            <div class="methodology-section">
+                <h2><span class="heading-icon"><i class="fas fa-route"></i></span> Review Methodology</h2>
+                <p>Our source code review follows a proven methodology that combines breadth of automated scanning with the depth of expert manual analysis, ensuring both common vulnerabilities and complex logic flaws are identified and documented.</p>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-num">01</div>
+                        <div class="step-content glass-card">
+                            <h3>Code Baseline Analysis</h3>
+                            <p>We begin by understanding your application architecture, technology stack, data flow diagrams, and security requirements. This phase involves reviewing documentation, interviewing developers, and mapping the application's attack surface. We identify high-risk code areas including authentication modules, payment processing, data access layers, and API endpoints that will receive focused attention.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">02</div>
+                        <div class="step-content glass-card">
+                            <h3>Automated Scanning</h3>
+                            <p>We run multiple SAST tools configured with custom rules tailored to your technology stack and coding conventions. Automated scanning provides broad coverage across the entire codebase, identifying common vulnerability patterns, dangerous function calls, and potential injection points. Results are triaged to eliminate false positives and prioritize findings for manual verification.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">03</div>
+                        <div class="step-content glass-card">
+                            <h3>Manual Deep Dive</h3>
+                            <p>Our security engineers perform targeted manual review of high-risk code paths, examining data flow from untrusted sources through processing logic to output sinks. We trace authentication and authorization decisions, analyze session management implementations, and evaluate error handling patterns. This phase uncovers vulnerabilities that require contextual understanding of the application's purpose and design.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">04</div>
+                        <div class="step-content glass-card">
+                            <h3>Logic & Crypto Review</h3>
+                            <p>We evaluate business logic implementations for bypass opportunities and analyze cryptographic usage for implementation weaknesses. This includes reviewing state machine transitions, multi-step workflows, race conditions, and time-of-check-to-time-of-use vulnerabilities. Cryptographic review covers algorithm selection, key lifecycle management, and entropy sources to ensure data protection mechanisms are robust.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">05</div>
+                        <div class="step-content glass-card">
+                            <h3>Reporting</h3>
+                            <p>We deliver a comprehensive report with each finding mapped to CWE identifiers, severity ratings, affected code locations with line numbers, and detailed remediation guidance with secure code examples. Our reports are designed for developer consumption, providing the context and code snippets needed for efficient remediation without requiring additional security expertise.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tools-section">
+                <h2>Tools & Technologies</h2>
+                <p>We utilize a curated selection of industry-leading static analysis tools and security scanners, each chosen for its strengths in detecting specific vulnerability classes across different programming languages.</p>
+                <div class="tools-list">
+                    <div class="tool-chip glass-card"><i class="fas fa-search-plus"></i><span>SonarQube</span></div>
+                    <div class="tool-chip glass-card"><i class="fas fa-code"></i><span>Semgrep</span></div>
+                    <div class="tool-chip glass-card"><i class="fas fa-shield-alt"></i><span>Checkmarx</span></div>
+                    <div class="tool-chip glass-card"><i class="fas fa-bug"></i><span>Snyk</span></div>
+                    <div class="tool-chip glass-card"><i class="fas fa-key"></i><span>GitLeaks</span></div>
+                    <div class="tool-chip glass-card"><i class="fas fa-database"></i><span>CodeQL</span></div>
+                </div>
+            </div>
+
+            <div class="benefits-section">
+                <h2>Key Benefits</h2>
+                <p>Investing in secure code review delivers exponential returns by catching vulnerabilities at the source, dramatically reducing remediation costs and preventing security incidents before code reaches production.</p>
+                <div class="benefits-grid">
+                    <div class="benefit-item glass-card"><i class="fas fa-check-circle"></i><span>Find vulnerabilities at the source where they are cheapest to fix, before they propagate into production environments</span></div>
+                    <div class="benefit-item glass-card"><i class="fas fa-check-circle"></i><span>Shift-left security by integrating code review into your development lifecycle, catching issues during development rather than post-deployment</span></div>
+                    <div class="benefit-item glass-card"><i class="fas fa-check-circle"></i><span>Reduce remediation costs by up to 100x compared to fixing vulnerabilities discovered in production through incident response</span></div>
+                    <div class="benefit-item glass-card"><i class="fas fa-check-circle"></i><span>Identify logic flaws and business rule bypasses that automated penetration testing and dynamic scanning tools cannot detect</span></div>
+                    <div class="benefit-item glass-card"><i class="fas fa-check-circle"></i><span>Secure dependencies by identifying vulnerable libraries in your supply chain and providing upgrade paths with compatibility analysis</span></div>
+                    <div class="benefit-item glass-card"><i class="fas fa-check-circle"></i><span>Improve overall code quality with security-focused recommendations that enhance maintainability, reliability, and performance</span></div>
+                </div>
+            </div>
+
+            <div class="service-cta glass-card">
+                <h2>Ready for a Secure Code Review?</h2>
+                <p>Your source code is the foundation of your application's security. Let's review it together and ensure every line meets the highest security standards. Whether you're preparing for a product launch, compliance audit, or simply want to elevate your development team's security practices, our expert review will deliver actionable results.</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7UnNDWLcNiogzuuiQETzSS0O7bYt4KM2Juf2L6esq_8JAUA/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="btn btn-glow"><span class="btn-text"><i class="fas fa-paper-plane"></i> Get Started</span><span class="btn-shine"></span></a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border:none;padding:0">
+                <div class="footer-socials">
+                    <a href="https://github.com/Dharmendrastm" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dharmendrastm/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://x.com/dharmstm" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p class="footer-copyright">&copy; 2024 Dharmendra Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+    <script src="../js/blog.js"></script>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethical Hacking & Penetration Testing Guide | Dharmendra Kumar</title>
+    <meta name="description" content="Complete guide to ethical hacking - from reconnaissance to reporting. Learn penetration testing methodology, tools, and how to start your career in offensive security.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dharmendrastm.github.io/PortfolioWebsite/ethical-hacking-guide.html">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Ethical Hacking & Penetration Testing Guide | Dharmendra Kumar">
+    <meta property="og:description" content="Complete guide to ethical hacking - from reconnaissance to reporting. Learn penetration testing methodology, tools, and how to start your career in offensive security.">
+    <meta property="og:url" content="https://dharmendrastm.github.io/PortfolioWebsite/ethical-hacking-guide.html">
+    <meta property="og:site_name" content="Dharmendra Kumar - Cybersecurity Portfolio">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@dharmstm">
+    <meta name="theme-color" content="#020408">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔐</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <canvas id="cyberGrid" class="cyber-grid"></canvas>
+    <nav class="navbar scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="nav-logo"><svg class="logo-svg" viewBox="0 0 40 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 2L4 10v12c0 11 16 18 16 18s16-7 16-18V10L20 2z" stroke="url(#logoGrad)" stroke-width="2" fill="rgba(0,245,212,0.06)"/><path d="M14 22l4 4 8-8" stroke="#00f5d4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="logoGrad" x1="4" y1="2" x2="36" y2="42"><stop stop-color="#00f5d4"/><stop offset="1" stop-color="#39ff14"/></linearGradient></defs></svg><span class="logo-text">DK<span class="logo-dot">.</span></span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li><li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li><li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="index.html#blog" class="nav-link active">Blog</a></li>
+                <li><a href="Images/Dharmendra_resume (2).pdf" download="Dharmendra_resume" class="nav-link">Resume</a></li>
+            </ul>
+            <a href="index.html#contact" class="btn btn-glow nav-cta"><span class="btn-text">Hire Me</span><span class="btn-shine"></span></a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+    <div class="mobile-nav-overlay" id="mobileNav"><ul class="mobile-nav-links">
+        <li><a href="index.html">Home</a></li><li><a href="index.html#about">About</a></li><li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#projects">Projects</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#contact">Contact</a></li>
+    </ul></div>
+
+    <section class="blog-hero">
+        <div class="container">
+            <a href="index.html#blog" class="blog-back"><i class="fas fa-arrow-left"></i> Back to Articles</a>
+            <div class="blog-hero-content">
+                <span class="blog-category-pill">Penetration Testing</span>
+                <h1>A Comprehensive Guide to Ethical Hacking & Penetration Testing</h1>
+                <div class="blog-meta-row">
+                    <span><i class="far fa-calendar-alt"></i> September 16, 2024</span>
+                    <span><i class="far fa-clock"></i> 8 min read</span>
+                    <span><i class="far fa-user"></i> Dharmendra Kumar</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <article class="blog-article">
+        <div class="container">
+            <div class="article-wrapper">
+                <div class="article-featured-img">
+                    <img src="Images/A Beginner%E2%80%99s Guide to Ethical Hacking and Penetration Testing.png" alt="Ethical Hacking Guide">
+                </div>
+
+                <h2><span class="heading-icon"><i class="fas fa-crosshairs"></i></span> What is Ethical Hacking?</h2>
+                <p>Ethical hacking — also known as penetration testing or white-hat hacking — is the authorized practice of probing computer systems, networks, and applications for security vulnerabilities. Unlike malicious hackers, ethical hackers operate with explicit permission, follow a structured methodology, and report their findings to help organizations strengthen their defenses.</p>
+                <p>In an era where cybercrime damages are projected to reach $10.5 trillion annually by 2025, skilled penetration testers are among the most sought-after professionals in the technology industry. This guide provides a comprehensive overview of the penetration testing methodology and pathways into the field.</p>
+
+                <h2><span class="heading-icon"><i class="fas fa-route"></i></span> The Penetration Testing Methodology</h2>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-number">01</div>
+                        <div class="timeline-content glass-card">
+                            <h3>Reconnaissance & OSINT</h3>
+                            <p>The foundation of every engagement. Passive reconnaissance involves gathering publicly available intelligence — DNS records, WHOIS data, social media profiles, employee information, technology stacks, and leaked credentials from breach databases. Active reconnaissance uses tools like Nmap to map network topology, discover live hosts, and fingerprint services. The quality of your reconnaissance directly determines the success of subsequent phases.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">02</div>
+                        <div class="timeline-content glass-card">
+                            <h3>Scanning & Enumeration</h3>
+                            <p>Systematic probing of discovered assets to identify exploitable weaknesses. Vulnerability scanners like Nessus and OpenVAS automate the detection of known CVEs, misconfigurations, and outdated software. Enumeration goes deeper — extracting usernames, group memberships, network shares, SNMP data, and service banners that reveal attack opportunities invisible to automated tools.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">03</div>
+                        <div class="timeline-content glass-card">
+                            <h3>Exploitation</h3>
+                            <p>The controlled execution of attacks against identified vulnerabilities to prove their exploitability. Using frameworks like Metasploit, custom scripts, and manual techniques, testers attempt to gain unauthorized access, escalate privileges, and demonstrate real-world impact. Every exploitation attempt is carefully documented with timestamps, tools used, and evidence screenshots.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">04</div>
+                        <div class="timeline-content glass-card">
+                            <h3>Post-Exploitation & Pivoting</h3>
+                            <p>After gaining initial access, testers assess the true depth of compromise. This phase involves privilege escalation, lateral movement to adjacent systems, data exfiltration simulation, and persistence mechanism testing. The goal is to demonstrate what a real attacker could achieve and how far they could penetrate from a single entry point.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">05</div>
+                        <div class="timeline-content glass-card">
+                            <h3>Reporting & Remediation</h3>
+                            <p>The most critical deliverable. A professional penetration test report includes an executive summary for leadership, detailed technical findings with CVSS scores, step-by-step reproduction instructions, evidence (screenshots, logs, PoC code), and prioritized remediation recommendations with both quick wins and long-term strategic improvements.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h2><span class="heading-icon"><i class="fas fa-tools"></i></span> Essential Penetration Testing Arsenal</h2>
+                <div class="tools-grid">
+                    <div class="tool-item glass-card">
+                        <i class="fas fa-crosshairs"></i>
+                        <h4>Metasploit Framework</h4>
+                        <p>Industry-standard exploitation framework with 2000+ exploits</p>
+                    </div>
+                    <div class="tool-item glass-card">
+                        <i class="fas fa-bug"></i>
+                        <h4>Burp Suite Professional</h4>
+                        <p>Premier web application security testing platform</p>
+                    </div>
+                    <div class="tool-item glass-card">
+                        <i class="fas fa-network-wired"></i>
+                        <h4>Wireshark</h4>
+                        <p>Deep packet inspection and network traffic analysis</p>
+                    </div>
+                    <div class="tool-item glass-card">
+                        <i class="fas fa-satellite-dish"></i>
+                        <h4>Nmap</h4>
+                        <p>Network discovery, port scanning, and service detection</p>
+                    </div>
+                    <div class="tool-item glass-card">
+                        <i class="fas fa-key"></i>
+                        <h4>John the Ripper / Hashcat</h4>
+                        <p>Password cracking and hash analysis engines</p>
+                    </div>
+                    <div class="tool-item glass-card">
+                        <i class="fas fa-terminal"></i>
+                        <h4>Kali Linux</h4>
+                        <p>Purpose-built pentesting OS with 600+ pre-installed tools</p>
+                    </div>
+                </div>
+
+                <h2><span class="heading-icon"><i class="fas fa-graduation-cap"></i></span> Starting Your Career in Offensive Security</h2>
+
+                <div class="info-card glass-card">
+                    <div class="info-icon"><i class="fas fa-server"></i></div>
+                    <div><h3>Master Networking & Operating Systems</h3><p>Build deep understanding of TCP/IP, DNS, HTTP/S, Active Directory, Linux internals, and Windows architecture. These fundamentals are the bedrock of every penetration test — without them, tools are just black boxes.</p></div>
+                </div>
+                <div class="info-card glass-card">
+                    <div class="info-icon"><i class="fas fa-bug"></i></div>
+                    <div><h3>Study Common Vulnerability Classes</h3><p>Go beyond surface-level understanding of SQLi and XSS. Study buffer overflows, race conditions, deserialization attacks, SSRF, and authentication bypass techniques. Use OWASP and MITRE ATT&CK as your reference frameworks.</p></div>
+                </div>
+                <div class="info-card glass-card">
+                    <div class="info-icon"><i class="fas fa-flask"></i></div>
+                    <div><h3>Build a Practice Lab</h3><p>Set up a virtualized lab with intentionally vulnerable machines — DVWA, HackTheBox, TryHackMe, VulnHub, and PortSwigger Web Security Academy. Document every machine you root as portfolio evidence.</p></div>
+                </div>
+                <div class="info-card glass-card">
+                    <div class="info-icon"><i class="fas fa-certificate"></i></div>
+                    <div><h3>Earn Industry Certifications</h3><p>Start with eJPT or CompTIA Security+, progress to OSCP (the gold standard for penetration testers), and consider CRTP, GPEN, or OSWE for specialization. Certifications validate your skills and open doors to enterprise clients.</p></div>
+                </div>
+
+                <div class="highlight-box glass-card">
+                    <h3>The Road Ahead</h3>
+                    <p>Ethical hacking is one of the most intellectually rewarding and impactful career paths in technology. It demands curiosity, persistence, continuous learning, and an unwavering ethical compass. Every vulnerability you discover and every system you help secure contributes to a safer digital world for everyone. Start your journey today — the cybersecurity community needs you.</p>
+                </div>
+
+                <div class="article-share"><span>Share this article</span><div class="share-buttons">
+                    <a href="#" class="share-btn glass-card" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="share-btn glass-card" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="share-btn glass-card" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div></div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer"><div class="container"><div class="footer-bottom" style="border:none;padding:0">
+        <div class="footer-socials">
+            <a href="https://github.com/Dharmendrastm" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/dharmendrastm/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://x.com/dharmstm" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="footer-copyright">&copy; 2024 Dharmendra Kumar. All rights reserved.</p>
+    </div></div></footer>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+    <script src="./js/blog.js"></script>
+</body>
+</html>

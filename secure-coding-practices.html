@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Coding Practices in Cybersecurity | Dharmendra Kumar</title>
+    <meta name="description" content="Why secure coding matters in cybersecurity - Learn about input validation, OWASP Top 10, SQL Injection prevention, and secure development lifecycle.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dharmendrastm.github.io/PortfolioWebsite/secure-coding-practices.html">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Secure Coding Practices in Cybersecurity | Dharmendra Kumar">
+    <meta property="og:description" content="Why secure coding matters in cybersecurity - Learn about input validation, OWASP Top 10, SQL Injection prevention, and secure development lifecycle.">
+    <meta property="og:url" content="https://dharmendrastm.github.io/PortfolioWebsite/secure-coding-practices.html">
+    <meta property="og:site_name" content="Dharmendra Kumar - Cybersecurity Portfolio">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@dharmstm">
+    <meta name="theme-color" content="#020408">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔐</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <canvas id="cyberGrid" class="cyber-grid"></canvas>
+
+    <nav class="navbar scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="nav-logo"><svg class="logo-svg" viewBox="0 0 40 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 2L4 10v12c0 11 16 18 16 18s16-7 16-18V10L20 2z" stroke="url(#logoGrad)" stroke-width="2" fill="rgba(0,245,212,0.06)"/><path d="M14 22l4 4 8-8" stroke="#00f5d4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="logoGrad" x1="4" y1="2" x2="36" y2="42"><stop stop-color="#00f5d4"/><stop offset="1" stop-color="#39ff14"/></linearGradient></defs></svg><span class="logo-text">DK<span class="logo-dot">.</span></span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="index.html#blog" class="nav-link active">Blog</a></li>
+                <li><a href="Images/Dharmendra_resume (2).pdf" download="Dharmendra_resume" class="nav-link">Resume</a></li>
+            </ul>
+            <a href="index.html#contact" class="btn btn-glow nav-cta"><span class="btn-text">Hire Me</span><span class="btn-shine"></span></a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+    <div class="mobile-nav-overlay" id="mobileNav">
+        <ul class="mobile-nav-links">
+            <li><a href="index.html">Home</a></li><li><a href="index.html#about">About</a></li><li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#projects">Projects</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="blog-hero">
+        <div class="container">
+            <a href="index.html#blog" class="blog-back"><i class="fas fa-arrow-left"></i> Back to Articles</a>
+            <div class="blog-hero-content">
+                <span class="blog-category-pill">Secure Development</span>
+                <h1>The Importance of Secure Coding Practices in Modern Cybersecurity</h1>
+                <div class="blog-meta-row">
+                    <span><i class="far fa-calendar-alt"></i> September 17, 2024</span>
+                    <span><i class="far fa-clock"></i> 6 min read</span>
+                    <span><i class="far fa-user"></i> Dharmendra Kumar</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <article class="blog-article">
+        <div class="container">
+            <div class="article-wrapper">
+                <div class="article-featured-img">
+                    <img src="Images/The Importance of Secure Coding Practices in Cybersecurity.png" alt="Secure Coding Practices">
+                </div>
+
+                <h2><span class="heading-icon"><i class="fas fa-book-open"></i></span> Introduction</h2>
+                <p>In today's rapidly expanding digital ecosystem, every line of code represents both an opportunity and a potential attack surface. Software developers are no longer just builders of functionality — they are the <strong>first line of defense</strong> against sophisticated cyber threats that cost organizations an estimated $8 trillion globally in 2023 alone.</p>
+                <p>A single insecure code pattern — an unvalidated input field, an improperly managed session token, or a misconfigured API endpoint — can cascade into a catastrophic breach affecting millions of users. Secure coding isn't optional; it's a fundamental requirement for building resilient software in today's threat landscape.</p>
+
+                <h2><span class="heading-icon"><i class="fas fa-code"></i></span> Core Principles of Secure Coding</h2>
+
+                <div class="info-card glass-card">
+                    <div class="info-icon"><i class="fas fa-check-circle"></i></div>
+                    <div>
+                        <h3>Input Validation & Sanitization</h3>
+                        <p>Never trust user input. Every data point entering your application — form fields, URL parameters, headers, file uploads — must be rigorously validated against expected formats, lengths, and character sets. Use allowlists over blocklists, and implement server-side validation regardless of client-side checks.</p>
+                    </div>
+                </div>
+
+                <div class="info-card glass-card">
+                    <div class="info-icon"><i class="fas fa-lock"></i></div>
+                    <div>
+                        <h3>Principle of Least Privilege</h3>
+                        <p>Grant users, processes, and services only the minimum permissions required to perform their intended functions. This limits the blast radius of any compromised account or component, preventing lateral movement across your infrastructure.</p>
+                    </div>
+                </div>
+
+                <div class="info-card glass-card">
+                    <div class="info-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                    <div>
+                        <h3>Secure Error Handling & Logging</h3>
+                        <p>Never expose stack traces, database queries, or internal system details in error messages. Implement structured logging that captures security-relevant events without leaking sensitive information — failed authentications, privilege escalations, and access anomalies should all be logged for monitoring.</p>
+                    </div>
+                </div>
+
+                <div class="info-card glass-card">
+                    <div class="info-icon"><i class="fas fa-search"></i></div>
+                    <div>
+                        <h3>Code Reviews & Security Audits</h3>
+                        <p>Integrate peer code reviews with a security-focused lens into your development workflow. Complement human analysis with automated SAST (Static Application Security Testing) and DAST (Dynamic Application Security Testing) tools to catch vulnerabilities before they reach production.</p>
+                    </div>
+                </div>
+
+                <h2><span class="heading-icon"><i class="fas fa-skull-crossbones"></i></span> Critical Vulnerabilities to Prevent</h2>
+
+                <div class="vuln-grid">
+                    <div class="vuln-card glass-card">
+                        <h3><i class="fas fa-database"></i> SQL Injection</h3>
+                        <p>Use parameterized queries and prepared statements exclusively. Never concatenate user input into SQL strings. Implement ORM frameworks that abstract database interactions and enforce type-safe queries by design.</p>
+                    </div>
+                    <div class="vuln-card glass-card">
+                        <h3><i class="fas fa-code"></i> Cross-Site Scripting (XSS)</h3>
+                        <p>Encode all output based on context — HTML, JavaScript, URL, and CSS encoding each require different approaches. Implement Content Security Policy (CSP) headers and use frameworks that auto-escape output by default.</p>
+                    </div>
+                    <div class="vuln-card glass-card">
+                        <h3><i class="fas fa-exchange-alt"></i> Cross-Site Request Forgery</h3>
+                        <p>Implement anti-CSRF tokens with proper entropy, validate the Origin and Referer headers, and use SameSite cookie attributes. For critical operations, consider requiring re-authentication.</p>
+                    </div>
+                    <div class="vuln-card glass-card">
+                        <h3><i class="fas fa-key"></i> Broken Authentication</h3>
+                        <p>Enforce Multi-Factor Authentication (MFA), hash passwords using bcrypt/Argon2 with proper salting, implement secure session management with timeouts, and protect against credential stuffing with rate limiting.</p>
+                    </div>
+                </div>
+
+                <h2><span class="heading-icon"><i class="fas fa-shield-alt"></i></span> Industry Standards & Frameworks</h2>
+
+                <div class="highlight-box glass-card">
+                    <h3>OWASP Top Ten</h3>
+                    <p>The industry-standard awareness document for web application security. It represents a broad consensus about the most critical security risks and should be the baseline for every development team's security checklist. Updated regularly to reflect emerging threat patterns.</p>
+                </div>
+
+                <div class="highlight-box glass-card">
+                    <h3>Secure Development Lifecycle (SDLC)</h3>
+                    <p>Security must be woven into every phase of development — from threat modeling during design, to security testing during QA, to vulnerability monitoring post-deployment. Shift-left security practices dramatically reduce remediation costs and breach risks.</p>
+                </div>
+
+                <div class="article-share">
+                    <span>Share this article</span>
+                    <div class="share-buttons">
+                        <a href="#" class="share-btn glass-card" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="share-btn glass-card" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="share-btn glass-card" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border:none;padding:0">
+                <div class="footer-socials">
+                    <a href="https://github.com/Dharmendrastm" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dharmendrastm/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://x.com/dharmstm" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p class="footer-copyright">&copy; 2024 Dharmendra Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+    <script src="./js/blog.js"></script>
+</body>
+</html>
