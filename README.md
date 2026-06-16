@@ -216,7 +216,8 @@ If you find my research, reports, tools, or projects useful:
 * 💻 **GitHub:** https://github.com/dharmstm
 * 🚩 **TryHackMe:** https://tryhackme.com/p/dharmstm
 
-<!-- SEO Keywords -->
+<!--
+SEO Keywords
 
 Dharmendra Kumar
 dharmstm
@@ -259,5 +260,4 @@ Penetration Testing Portfolio
 dharmendra ethical hacker
 dharmendra cybersecurity researcher
 dharmstm cybersecurity
-
-<!-- /SEO Keywords -->
+-->
