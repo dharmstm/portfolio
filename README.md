@@ -216,98 +216,48 @@ If you find my research, reports, tools, or projects useful:
 * 💻 **GitHub:** https://github.com/dharmstm
 * 🚩 **TryHackMe:** https://tryhackme.com/p/dharmstm
 
-<!--
-🔑 ADVANCED SEO KEYWORDS
+<!-- SEO Keywords -->
 
 Dharmendra Kumar
-Dharmendra Kumar Cybersecurity
-Dharmendra Kumar Penetration Tester
-Dharmendra Kumar Ethical Hacker
 dharmstm
 dharmendrastm
-dharmendracyberhack
-
-Cybersecurity Engineer India
-Ethical Hacker India
-Penetration Tester India
-VAPT Engineer India
-Application Security Engineer
-Offensive Security Researcher
-Security Researcher
-
-eJPT v2 Certified
-eJPT Certified Professional
-Junior Penetration Tester
+dharmendra cybersecurity portfolio
+dharmstm portfolio
 Cybersecurity Portfolio
-Cybersecurity Blog
-Cybersecurity Reports
-
-TryHackMe
-TryHackMe Writeups
-TryHackMe Walkthroughs
-TryHackMe Rooms
-TryHackMe Cybersecurity
-TryHackMe Profile
-TryHackMe dharmstm
-
-Hack The Box
-Hack The Box Writeups
-Hack The Box Walkthroughs
-HTB Writeups
-HTB Walkthroughs
-
-
-
-S
-
-OWASP Top 10
+Ethical Hacker
+Junior Penetration Tester
+eJPT v2 Certified
+eJPT Certified Ethical Hacker
+Cybersecurity Researcher
+Security Researcher
+Vulnerability Assessment and Penetration Testing
+VAPT Engineer
 Web Application Security
-API Security Testing
-REST API Security
-GraphQL Security
-Mobile Application Security
-Android Security Testing
-Cloud Security Assessment
-AWS Security
-Azure Security
-GCP Security
-IoT Security Testing
-
+Application Security
+Network Security
+OWASP Top 10
 Bug Bounty Hunter
-Bug Bounty Reports
 Responsible Disclosure
-Vulnerability Assessment
-Penetration Testing
-VAPT Reports
-Security Audit
-Security Assessment
-
-Burp Suite
-Nmap
-Metasploit
-Wireshark
-Kali Linux
-OWASP Testing Guide
-PortSwigger Academy
-
-NASA Hall of Fame
-Ulta Beauty Hall of Fame
-Dreamscape Hall of Fame
-
-CVE-2026-30503
-CVE-2026-30502
-OpenKM Stored XSS
-OpenKM Reflected XSS
-
-GitHub Cybersecurity Portfolio
-Medium Cybersecurity Blog
+Responsible Disclosure Recognition
+Security Vulnerability Research
+Security Analyst
+Information Security
+Cybersecurity Engineer
+Web Security Testing
+Bug Hunting
+Red Teaming
+CTF Player
 Cybersecurity Projects
-Security Tools
-Red Team
-Blue Team
-Threat Hunting
-Security Consultation
-Source Code Review
-dharmendrahacker
--->
+TryHackMe Writeups
+Hack The Box Writeups
+Cybersecurity Blog
+GitHub Security Researcher
+Cybersecurity Student
+NASA Hall of Fame Recognition
+Ethical Hacking Portfolio
+Penetration Testing Portfolio
+dharmendra ethical hacker
+dharmendra cybersecurity researcher
+dharmstm cybersecurity
 
+<!-- /SEO Keywords -->
